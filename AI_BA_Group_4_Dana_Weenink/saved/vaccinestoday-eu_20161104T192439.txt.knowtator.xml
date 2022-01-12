@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="vaccinestoday-eu_20161104T192439.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1423" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="701" end="704" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:11:18 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1423">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1424" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1031" end="1033" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 23:16:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1424">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1425" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1556" end="1558" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 23:16:56 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1425">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1426" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1569" end="1575" />
+        <spannedText>nobody</spannedText>
+        <creationDate>Wed Jan 12 23:18:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1426">
+        <mentionClass id="NegCue">nobody</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1427" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1787" end="1790" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:19:41 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1427">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1428" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2462" end="2465" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:21:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1428">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1429" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2845" end="2847" />
+        <spannedText>ab</spannedText>
+        <creationDate>Wed Jan 12 23:22:14 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1429">
+        <mentionClass id="NegCue">ab</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1430" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2891" end="2894" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:22:19 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1430">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1431" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2972" end="2976" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 23:22:40 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1431">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1432" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="3229" end="3234" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:23:26 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1432">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1433" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="3251" end="3254" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:23:31 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1433">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1434" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="3296" end="3301" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:25:02 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1434">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1435" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="3364" end="3367" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:27:34 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1435">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1436" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="3493" end="3496" />
+        <spannedText>â€™</spannedText>
+        <creationDate>Wed Jan 12 23:27:57 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1436">
+        <mentionClass id="NegCue">â€™</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1437" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="4060" end="4063" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:29:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1437">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1438" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="4648" end="4650" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 23:30:24 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1438">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1439" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="4826" end="4831" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:31:04 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1439">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1440" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="4958" end="4961" />
+        <spannedText>dis</spannedText>
+        <creationDate>Wed Jan 12 23:32:44 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1440">
+        <mentionClass id="NegCue">dis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1441" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="4969" end="4971" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 23:32:52 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1441">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1442" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="5071" end="5076" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 23:33:00 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1442">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1443" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="5289" end="5294" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:33:25 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1443">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1444" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="5553" end="5562" />
+        <spannedText>no longer</spannedText>
+        <creationDate>Wed Jan 12 23:35:48 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1444">
+        <mentionClass id="NegCue">no longer</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1445" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="5769" end="5771" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 23:37:27 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1445">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1446" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="5801" end="5803" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 23:37:38 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1446">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1447" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="6213" end="6215" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 23:38:11 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1447">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1448" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="6152" end="6158" />
+        <spannedText>Nobody</spannedText>
+        <creationDate>Wed Jan 12 23:38:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1448">
+        <mentionClass id="NegCue">Nobody</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1449" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="6189" end="6199" />
+        <spannedText>inevitable</spannedText>
+        <creationDate>Wed Jan 12 23:38:40 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1449">
+        <mentionClass id="NegCue">inevitable</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1450" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="6985" end="6990" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:39:30 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1450">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1451" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="7003" end="7008" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:39:39 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1451">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1452" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="7134" end="7137" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:39:52 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1452">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1453" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="7379" end="7384" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 23:40:10 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1453">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1454" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="7525" end="7528" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:40:44 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1454">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1455" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="7577" end="7579" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 23:40:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1455">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1456" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="7915" end="7918" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:41:20 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1456">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1457" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2192" end="2195" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:47:02 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1457">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1458" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1264" end="1267" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 23:47:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1458">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

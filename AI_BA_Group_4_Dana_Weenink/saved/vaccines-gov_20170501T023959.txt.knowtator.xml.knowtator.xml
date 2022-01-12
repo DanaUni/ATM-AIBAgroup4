@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<annotations textSource="vaccines-gov_20170627T180812.txt">
-    <annotation>
-        <mention id="EHOST_Instance_98" />
-        <annotator id="eHOST_2010">Dana Weenink</annotator>
-        <span start="1204" end="1207" />
-        <spannedText>not</spannedText>
-        <creationDate>Wed Jan 12 14:32:15 CET 2022</creationDate>
-    </annotation>
-    <classMention id="EHOST_Instance_98">
-        <mentionClass id="NegCue">not</mentionClass>
-    </classMention>
+<annotations textSource="vaccines-gov_20170501T023959.txt.knowtator.xml">
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0" />
         <Adjudication_Selected_Classes version="1.0" />
