@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="vaccines-gov_20170627T180818.txt">
+    <annotation>
+        <mention id="EHOST_Instance_199" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="540" end="545" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 14:33:33 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_199">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_200" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="905" end="913" />
+        <spannedText>iring un</spannedText>
+        <creationDate>Wed Jan 12 14:33:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_200">
+        <mentionClass id="NegCue">iring un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_201" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1525" end="1528" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 14:34:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_201">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_202" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2115" end="2117" />
+        <spannedText>in</spannedText>
+        <creationDate>Wed Jan 12 14:34:35 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_202">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_203" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="2422" end="2425" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 14:35:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_203">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
