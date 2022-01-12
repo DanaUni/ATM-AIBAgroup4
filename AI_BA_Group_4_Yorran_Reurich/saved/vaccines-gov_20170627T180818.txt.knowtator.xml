@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="vaccines-gov_20170627T180818.txt">
+    <annotation>
+        <mention id="EHOST_Instance_3732" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="540" end="545" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 20:49:15 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3732">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3733" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="893" end="900" />
+        <spannedText>without</spannedText>
+        <creationDate>Wed Jan 12 20:49:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3733">
+        <mentionClass id="NegCue">without</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3734" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="911" end="913" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 20:49:43 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3734">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3735" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="1525" end="1528" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 20:50:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3735">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3736" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="1740" end="1745" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 20:50:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3736">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3737" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="2422" end="2425" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 20:51:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3737">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0" />
         <Adjudication_Selected_Classes version="1.0" />

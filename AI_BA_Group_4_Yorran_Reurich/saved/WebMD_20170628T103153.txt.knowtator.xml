@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="WebMD_20170628T103153.txt">
+    <annotation>
+        <mention id="EHOST_Instance_3774" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="2269" end="2272" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:12:45 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3774">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3775" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="2352" end="2355" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:12:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3775">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3776" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="2381" end="2384" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:12:54 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3776">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3777" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="2438" end="2440" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 21:12:57 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3777">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3778" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="3435" end="3438" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:13:44 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3778">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3779" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="3484" end="3487" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:13:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3779">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3780" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="3607" end="3609" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 21:13:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3780">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3781" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="3873" end="3876" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:14:04 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3781">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3782" />
+        <annotator id="eHOST_2010">Yorran Reurich</annotator>
+        <span start="3981" end="3984" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 21:14:09 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3782">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0" />
         <Adjudication_Selected_Classes version="1.0" />

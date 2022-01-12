@@ -1,0 +1,29 @@
+<html>
+<head><title>Class and span matcher</title></head>
+<body style="margin: 2 5 5 5; font-family: Candara;">
+<div><a href="index.html"><b> [Back to the index.html]</b></a><br></div>
+<h1>Class and span matcher</h1>
+Annotations match if they have exact same spans, with same classes.
+<hr>
+<p>
+<h2>2-way IAA Results</h2>
+IAA calculated on 26 documents.
+<div>all annotations = matches + non-matches
+<br> IAA = matches / all annotations
+</div>
+<p>For annotations between Annotator[Yorran Reurich] and Annotator[Rafael]:</p>
+<table border=1><tr><td><b>Type</b></td><td><b>IAA</b></td>
+<td><b>matches</b></td>
+<td><b>non-matches</b></td>
+</tr>
+<tr><td><b>All selected classes</b></td><td>36.7%</td><td>18</td><td>31</td></tr>
+<tr><td><b>NegCue</b></td><td>36.7%</td><td>18</td><td>31</td></tr>
+</table>
+<br>
+<h2>Pair-wise agreement</h2>
+<table border=1><tr><td><b>Gold standard set</b></td><td><b>compared set</b></td><td><b>true positives</b></td><td><b>false positives</b></td><td><b>false negatives</b></td><td><b>recall</b></td><td><b>precision</b></td><td><b>F-measure</b></td></tr>
+<tr><td>Yorran Reurich</td><td>Rafael</td><td>9</td><td>31</td><td>0</td><td>100.0%</td><td>22.5%</td><td>36.7%</td></tr>
+<tr><td>Rafael</td><td>Yorran Reurich</td><td>9</td><td>0</td><td>31</td><td>22.5%</td><td>100.0%</td><td>36.7%</td></tr>
+</table>
+Precision and recall are given equal weight for the F-score.
+<div><a href="index.html"><b><br>[Back to the index.html]</b></a><br></div>
