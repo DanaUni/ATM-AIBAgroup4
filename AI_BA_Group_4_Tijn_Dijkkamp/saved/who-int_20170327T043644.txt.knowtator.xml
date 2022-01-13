@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="who-int_20170327T043644.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1114" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="1537" end="1539" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 13 18:41:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1114">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Whattoexpect_20161206T224915.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1075" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="766" end="768" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 13 17:57:33 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1075">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1076" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="1374" end="1376" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 13 17:58:42 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1076">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1077" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="1589" end="1592" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 17:58:55 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1077">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1078" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="1651" end="1654" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 17:58:58 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1078">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1079" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="1728" end="1731" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 18:00:00 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1079">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1080" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="1989" end="1991" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 13 18:00:14 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1080">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1081" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="2104" end="2107" />
+        <spannedText>mis</spannedText>
+        <creationDate>Thu Jan 13 18:00:35 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1081">
+        <mentionClass id="NegCue">mis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1082" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="2212" end="2214" />
+        <spannedText>'t</spannedText>
+        <creationDate>Thu Jan 13 18:00:55 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1082">
+        <mentionClass id="NegCue">'t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1083" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="2396" end="2401" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Thu Jan 13 18:01:11 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1083">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1084" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="2447" end="2452" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Thu Jan 13 18:01:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1084">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1085" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="2577" end="2580" />
+        <spannedText>Not</spannedText>
+        <creationDate>Thu Jan 13 18:01:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1085">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1086" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="2634" end="2638" />
+        <spannedText>â€™t</spannedText>
+        <creationDate>Thu Jan 13 18:01:46 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1086">
+        <mentionClass id="NegCue">â€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1087" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="3184" end="3186" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 13 18:02:12 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1087">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1088" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="3304" end="3309" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Thu Jan 13 18:05:49 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1088">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1089" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="3526" end="3528" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 13 18:06:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1089">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1090" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="6407" end="6412" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Thu Jan 13 18:24:19 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1090">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1091" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="6470" end="6472" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 13 18:24:26 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1091">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1092" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="6712" end="6715" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 18:24:39 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1092">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1093" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="6855" end="6858" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 18:24:45 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1093">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1094" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="6994" end="6999" />
+        <spannedText>never</spannedText>
+        <creationDate>Thu Jan 13 18:24:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1094">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1095" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="6954" end="6959" />
+        <spannedText>never</spannedText>
+        <creationDate>Thu Jan 13 18:24:54 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1095">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1096" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="7153" end="7158" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Thu Jan 13 18:25:07 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1096">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1097" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="7472" end="7475" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 18:25:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1097">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1098" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="8270" end="8275" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Thu Jan 13 18:26:00 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1098">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1099" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="8476" end="8479" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 18:26:12 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1099">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1100" />
+        <annotator id="eHOST_2010">Tijn</annotator>
+        <span start="8518" end="8521" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 13 18:26:14 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1100">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
