@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="vaccines-gov_20170611T191047.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1098" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="1491" end="1493" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 14:27:31 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1098">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1099" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="1990" end="1993" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 14:29:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1099">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1100" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="792" end="797" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 12:35:48 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1100">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1101" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="817" end="822" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 12:35:51 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1101">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1102" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="1107" end="1110" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 12:36:00 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1102">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1103" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="1245" end="1248" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 12:36:06 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1103">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1104" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="2849" end="2852" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 12:40:34 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1104">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1105" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="3000" end="3002" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 12:56:24 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1105">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1106" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="3412" end="3414" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 12:56:34 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1106">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1107" />
+        <annotator id="01">ADJUDICATION</annotator>
+        <span start="3943" end="3946" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 12:42:18 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1107">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+</annotations>
+

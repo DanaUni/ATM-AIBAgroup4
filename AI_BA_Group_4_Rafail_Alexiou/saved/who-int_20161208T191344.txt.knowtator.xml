@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="who-int_20161208T191344.txt">
+    <annotation>
+        <mention id="EHOST_Instance_4468" />
+        <annotator id="01">Rafael</annotator>
+        <span start="1871" end="1873" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 18:17:15 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4468">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4469" />
+        <annotator id="01">Rafael</annotator>
+        <span start="1885" end="1887" />
+        <spannedText>in</spannedText>
+        <creationDate>Wed Jan 12 18:17:10 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4469">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4470" />
+        <annotator id="01">Rafael</annotator>
+        <span start="2114" end="2117" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:17:24 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4470">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4471" />
+        <annotator id="01">Rafael</annotator>
+        <span start="2332" end="2337" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 18:17:31 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4471">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4472" />
+        <annotator id="01">Rafael</annotator>
+        <span start="3054" end="3056" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 18:18:04 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4472">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4473" />
+        <annotator id="01">Rafael</annotator>
+        <span start="3272" end="3275" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:18:08 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4473">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4474" />
+        <annotator id="01">Rafael</annotator>
+        <span start="3834" end="3837" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:18:24 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4474">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4475" />
+        <annotator id="01">Rafael</annotator>
+        <span start="4464" end="4467" />
+        <spannedText>Not</spannedText>
+        <creationDate>Wed Jan 12 18:18:43 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4475">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4476" />
+        <annotator id="01">Rafael</annotator>
+        <span start="4820" end="4823" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:19:01 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4476">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4477" />
+        <annotator id="01">Rafael</annotator>
+        <span start="5348" end="5351" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:19:17 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4477">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4478" />
+        <annotator id="01">Rafael</annotator>
+        <span start="6621" end="6624" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:19:48 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4478">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4479" />
+        <annotator id="01">Rafael</annotator>
+        <span start="870" end="873" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:42:36 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4479">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4480" />
+        <annotator id="01">Rafael</annotator>
+        <span start="8592" end="8595" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:43:00 EET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4480">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4481" />
+        <annotator id="01">Rafael</annotator>
+        <span start="1871" end="1873" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 18:17:15 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4481">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4482" />
+        <annotator id="01">Rafael</annotator>
+        <span start="1885" end="1887" />
+        <spannedText>in</spannedText>
+        <creationDate>Wed Jan 12 18:17:10 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4482">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4483" />
+        <annotator id="01">Rafael</annotator>
+        <span start="2114" end="2117" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:17:24 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4483">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4484" />
+        <annotator id="01">Rafael</annotator>
+        <span start="2332" end="2337" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 18:17:31 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4484">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4485" />
+        <annotator id="01">Rafael</annotator>
+        <span start="3054" end="3056" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 18:18:04 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4485">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4486" />
+        <annotator id="01">Rafael</annotator>
+        <span start="3272" end="3275" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:18:08 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4486">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4487" />
+        <annotator id="01">Rafael</annotator>
+        <span start="3834" end="3837" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:18:24 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4487">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4488" />
+        <annotator id="01">Rafael</annotator>
+        <span start="4464" end="4467" />
+        <spannedText>Not</spannedText>
+        <creationDate>Wed Jan 12 18:18:43 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4488">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4489" />
+        <annotator id="01">Rafael</annotator>
+        <span start="4820" end="4823" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:19:01 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4489">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4490" />
+        <annotator id="01">Rafael</annotator>
+        <span start="5348" end="5351" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:19:17 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4490">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4491" />
+        <annotator id="01">Rafael</annotator>
+        <span start="6621" end="6624" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:19:48 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4491">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4492" />
+        <annotator id="01">Rafael</annotator>
+        <span start="870" end="873" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:42:36 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4492">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_4493" />
+        <annotator id="01">Rafael</annotator>
+        <span start="8592" end="8595" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 18:43:00 EET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_4493">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0">
+            <Annotator>Rafael</Annotator>
+            <Annotator>Dana Weenink</Annotator>
+            <Annotator>ADJUDICATION</Annotator>
+        </Adjudication_Selected_Annotators>
+        <Adjudication_Selected_Classes version="1.0">
+            <Class>NegCue</Class>
+        </Adjudication_Selected_Classes>
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
