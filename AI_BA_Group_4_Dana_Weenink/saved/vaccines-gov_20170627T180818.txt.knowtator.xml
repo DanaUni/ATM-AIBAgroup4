@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="vaccines-gov_20170627T180818.txt">
     <annotation>
-        <mention id="EHOST_Instance_3621" />
+        <mention id="EHOST_Instance_2756" />
         <annotator id="01">Dana Weenink</annotator>
         <span start="540" end="545" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 14:33:33 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3621">
+    <classMention id="EHOST_Instance_2756">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_3622" />
+        <mention id="EHOST_Instance_2757" />
         <annotator id="01">Dana Weenink</annotator>
         <span start="1525" end="1528" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 14:34:08 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3622">
+    <classMention id="EHOST_Instance_2757">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_3623" />
+        <mention id="EHOST_Instance_2758" />
         <annotator id="01">Dana Weenink</annotator>
         <span start="1740" end="1745" />
         <spannedText>nβ€™t</spannedText>
         <creationDate>Wed Jan 12 12:55:10 EET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3623">
+    <classMention id="EHOST_Instance_2758">
         <mentionClass id="NegCue">nβ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_3624" />
+        <mention id="EHOST_Instance_2759" />
         <annotator id="01">Dana Weenink</annotator>
         <span start="893" end="900" />
         <spannedText>without</spannedText>
         <creationDate>Wed Jan 12 12:55:31 EET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3624">
+    <classMention id="EHOST_Instance_2759">
         <mentionClass id="NegCue">without</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_3625" />
+        <mention id="EHOST_Instance_2760" />
         <annotator id="01">Dana Weenink</annotator>
         <span start="2422" end="2425" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 12:56:54 EET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3625">
+    <classMention id="EHOST_Instance_2760">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_3626" />
+        <mention id="EHOST_Instance_2761" />
         <annotator id="01">Dana Weenink</annotator>
         <span start="2115" end="2117" />
         <spannedText>in</spannedText>
         <creationDate>Wed Jan 12 12:57:54 EET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3626">
+    <classMention id="EHOST_Instance_2761">
         <mentionClass id="NegCue">in</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_3627" />
+        <mention id="EHOST_Instance_2762" />
         <annotator id="eHOST_2010">Dana Weenink</annotator>
         <span start="911" end="913" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 22:57:01 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_3627">
+    <classMention id="EHOST_Instance_2762">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <eHOST_Adjudication_Status version="1.0">
