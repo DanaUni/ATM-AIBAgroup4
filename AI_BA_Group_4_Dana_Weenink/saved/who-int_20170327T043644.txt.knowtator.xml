@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="who-int_20170327T043644.txt">
+    <annotation>
+        <mention id="EHOST_Instance_127" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="709" end="712" />
+        <spannedText>Not</spannedText>
+        <creationDate>Thu Jan 13 10:49:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_127">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_128" />
+        <annotator id="eHOST_2010">Dana Weenink</annotator>
+        <span start="1537" end="1539" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 13 10:51:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_128">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0" />
         <Adjudication_Selected_Classes version="1.0" />
