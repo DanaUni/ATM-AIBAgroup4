@@ -63,7 +63,7 @@ def contains_prefix(word):
 def contains_suffix(word):
     #List can and probably should be extended (comment: we also need a source for the list or use an existing one)
     suffix = 'less'
-    if suffix in word:
+    if suffix in word and len(word)>4:
         return True
     else:
         return False
