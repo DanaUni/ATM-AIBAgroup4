@@ -151,12 +151,33 @@ def add_sentiment(df, row_index, sentence, n_gram_size=5):
     sentiment = doc._.polarity
     return sentiment, last_word,  n_gram_sentiment_text
 
+def add_surrounding_token(data_frame):
+    previous_token = ['-']
+    next_token = []
+    for previous, next in zip(data_frame['POS'], data_frame['POS'][1:]):
+        previous_token.append(previous)
+        next_token.append(next)
+    next_token.append('-')
+
+    previous_lemma = ['-']
+    next_lemma = []
+    for previous, next in zip(data_frame['lemma'], data_frame['lemma'][1:]):
+        previous_lemma.append(previous)
+        next_lemma.append(next)
+    next_lemma.append('-')
+
+    data_frame['previous_pos'] = previous_token
+    data_frame['next_pos'] = next_token
+    data_frame['previous_lemma'] = previous_lemma
+    data_frame['next_lemma'] = next_lemma
+
 """
 START OF CODE
 """
 
 nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
 nlp.add_pipe('spacytextblob')
+
 # Only run this the first time
 # nltk.download("wordnet")
 # nltk.download('omw-1.4')
@@ -195,6 +216,7 @@ with open(infile_path, "r", encoding="utf-8") as infile:
 df_data = pd.DataFrame(data)
 extract_and_add_sentence_features(current_sentence_dict, df_data)
 add_features(df_data)
+add_surrounding_token(df_data)
 
 # Export data with features
 df_data.to_csv(outfile_path, encoding="utf-8", index=False)
