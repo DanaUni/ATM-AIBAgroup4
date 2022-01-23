@@ -310,7 +310,7 @@ def add_features(dataframe):
         # Save prefix and suffix in dataframe
         dataframe.loc[i, 'hasPrefix'] = contains_prefix(current_token)  
         dataframe.loc[i, 'hasSuffix'] = contains_suffix(current_token) 
-         dataframe['length']=dataframe.groupby(['filename','sentence_nr'])['token_nr'].transform("count")
+        dataframe['length']=dataframe.groupby(['filename','sentence_nr'])['token_nr'].transform("count")
         dataframe['normalised_pos'] = dataframe.apply(lambda row: float(row.token_nr) / row.length, axis=1)
         if contains_prefix(current_token):
             prefix = get_prefix(current_token)
