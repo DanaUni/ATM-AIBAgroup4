@@ -1,21 +1,10 @@
+import nltk
 from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 import pandas as pd
 import spacy
 from spacytextblob.spacytextblob import SpacyTextBlob
-
-nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
-nlp.add_pipe('spacytextblob')
-# Only run this the first time
-#nltk.download("wordnet")
-
-infile_path = "data/testing.txt"
-outfile_path = infile_path.replace(".txt", "-out.txt")
-lemmatizer = WordNetLemmatizer()
-current_sentence = []
-current_sentence_dict = dict()
-data = []
 
 def get_wordnet_pos(pos_tag):
     tag_dict = {"J": wordnet.ADJ,
@@ -101,6 +90,7 @@ def add_features(dataframe):
                 dataframe.loc[i, 'isAntonym'] = False
         else:
             dataframe.loc[i, 'isAntonym'] = False
+
 def get_antonyms(word):
     antonyms = []
     for syn in wordnet.synsets(word):
@@ -108,12 +98,15 @@ def get_antonyms(word):
             if l.antonyms():
                 antonyms.append(l.antonyms()[0].name())
     return antonyms
+
 def get_prefix(word):
     prefix_list = ['anti','in', 'un', 'im', 'il', 'dis','ir','an','non','a']
     if word.lower().startswith(tuple(prefix_list)):
         return next(filter(word.lower().startswith, prefix_list))
+
 def remove_prefix(word,prefix):
     return word[len(prefix):]
+
 def pos_category(pos):
     adjectives=['JJ','JJR','JJS']
     verbs=['VB','VBD','VBG','VNB','VBP','VBZ']
@@ -150,6 +143,23 @@ def add_sentiment(df, row_index, sentence, n_gram_size=5):
     sentiment = doc._.polarity
     return sentiment, last_word,  n_gram_sentiment_text
 
+"""
+START OF CODE
+"""
+
+nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
+nlp.add_pipe('spacytextblob')
+# Only run this the first time
+# nltk.download("wordnet")
+# nltk.download('omw-1.4')
+
+infile_path = "data/test.txt"
+outfile_path = infile_path.replace(".txt", "-out.txt")
+lemmatizer = WordNetLemmatizer()
+current_sentence = []
+current_sentence_dict = dict()
+data = []
+
 with open(infile_path, "r", encoding="utf-8") as infile:
     for line in infile:
         line = line.strip().split()
@@ -179,4 +189,4 @@ extract_and_add_sentence_features(current_sentence_dict, df_data)
 add_features(df_data)
 
 # Export data with features
-df_data.to_csv(outfile_path, encoding="utf-8")
+df_data.to_csv(outfile_path, encoding="utf-8", index=False)
