@@ -4,6 +4,7 @@ infile_path = "..\data\SEM-2012-SharedTask-CD-SCO-training-simple.v2_SHORT-out.t
 outfile_path = "..\data\SEM-2012-SharedTask-CD-SCO-training-simple.v2_SHORT-out-CONLL.conll"
 dataframe = pd.read_csv(infile_path, encoding="utf-8")
 
+
 def convert_dataframe_to_conll(dataframe, outfile_path, delimiter= '\t'):
     """
     Convert the rows of a dataframe into conll format and output a conll file
@@ -14,7 +15,9 @@ def convert_dataframe_to_conll(dataframe, outfile_path, delimiter= '\t'):
     """
     with open(outfile_path, 'w') as outputfile:
         for i in range(len(dataframe)):
-            row = dataframe.iloc[i]
+
+            # Select all columns sent_id for each row
+            row = dataframe.loc[i, dataframe.columns != "sent_id"]
             row = [str(j) for j in row]
             row = delimiter.join(row)
 
