@@ -19,7 +19,7 @@ def get_features(inputfilepath):
         for line in lines:
             row = line.rstrip("\n").split("\t")
 
-            if len(row) > 0:
+            if len(row) > 1:
                 filename = row[0]
                 sentence_nr = row[1]
                 token_nr = row[2]
@@ -60,6 +60,9 @@ def get_features(inputfilepath):
                 print(row_features)
                 all_rows_features.append(row_features)
                 all_rows_labels.append(label)
+
+    return all_rows_features, all_rows_labels
+
     print("len features", len(all_rows_features))
     print("len labels", len(all_rows_labels))
 
