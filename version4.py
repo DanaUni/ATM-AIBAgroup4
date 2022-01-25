@@ -243,13 +243,17 @@ def check_all_ngram_exp(sentence, ns):
     return exp_count, final_expression_sent
 
 
-def get_wordnet_pos(pos_tag):
-    tag_dict = {"J": wordnet.ADJ,
-                "N": wordnet.NOUN,
-                "V": wordnet.VERB,
-                "R": wordnet.ADV}
-
-    return tag_dict.get(pos_tag, wordnet.NOUN)
+def get_wordnet_pos(nltk_tag):
+    if nltk_tag.startswith('J'):
+        return wordnet.ADJ
+    elif nltk_tag.startswith('V'):
+        return wordnet.VERB
+    elif nltk_tag.startswith('N'):
+        return wordnet.NOUN
+    elif nltk_tag.startswith('R'):
+        return wordnet.ADV
+    else:          
+        return wordnet.NOUN
 
 def extract_and_add_sentence_features(sentences: dict, dataframe):
     """
