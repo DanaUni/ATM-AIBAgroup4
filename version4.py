@@ -265,6 +265,8 @@ def extract_and_add_sentence_features(sentences: dict, dataframe):
     dataframe["lemma"] = ""
     sentence_features = dict()
     exp_count = 0
+    dataframe['length']=dataframe.groupby(['filename','sentence_nr'])['token_nr'].transform("count")
+    dataframe['normalised_pos'] = (dataframe['token_nr'].astype(str).astype(float) +1) / dataframe['length']
 
     for sid, sentence in sentences.items():
         print("SID:", sid)
@@ -313,9 +315,7 @@ def add_features(dataframe):
 
         # Save prefix and suffix in dataframe
         dataframe.loc[i, 'hasPrefix'] = contains_prefix(current_token)  
-        dataframe.loc[i, 'hasSuffix'] = contains_suffix(current_token) 
-        dataframe['length']=dataframe.groupby(['filename','sentence_nr'])['token_nr'].transform("count")
-        dataframe['normalised_pos'] = dataframe.apply(lambda row: (float(row.token_nr) +1 )/ float(row.length), axis=1)
+        dataframe.loc[i, 'hasSuffix'] = contains_suffix(current_token)
         if contains_prefix(current_token):
             prefix = get_prefix(current_token)
             word_without_prefix = remove_prefix(current_token, prefix)
