@@ -8,16 +8,17 @@ testfile_path = "..\data\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt"
 
 vec = DictVectorizer()
 
-all_rows_features = []
-all_rows_labels = []
-
 def get_features(inputfilepath):
+    all_rows_features = []
+    all_rows_labels = []
 
     with open(inputfilepath, "r", encoding="utf-8") as infile:
         lines = infile.readlines()
+        print(len(lines))
 
         for line in lines:
             row = line.rstrip("\n").split("\t")
+            #print(row)
 
             if len(row) > 1:
                 filename = row[0]
@@ -57,7 +58,7 @@ def get_features(inputfilepath):
                     #,"previous_lemma": previous_lemma
                     #,"next_lemma": next_lemma
                 }
-                print(row_features)
+                #print(row_features)
                 all_rows_features.append(row_features)
                 all_rows_labels.append(label)
 
@@ -71,6 +72,15 @@ train_features, train_labels = get_features(trainfile_path)
 train_vector_features = vec.fit_transform(train_features)
 print("train features vector shape", train_vector_features.shape)
 
+def find_I_negs(listy):
+    count_inegs = 0
+    for itemm in listy:
+        if itemm == "I-NEG":
+            count_inegs += 1
+    print("number of I-NEGS", count_inegs)
+
+find_I_negs(train_labels)
+
 # Change model to test others
 model = svm.LinearSVC()
 model.fit(train_vector_features, train_labels)
@@ -80,7 +90,25 @@ test_features, test_labels = get_features(testfile_path)
 test_vector_features = vec.transform(test_features)
 print("test features vector shape", test_vector_features.shape)
 
+find_I_negs(train_labels)
+
 predictions = model.predict(test_vector_features)
 
+print("\nI-NEG predictions [prediction] [gold] [token]")
+for i in range(len(predictions)):
+    if predictions[i] == "I-NEG":
+        print(predictions[i], test_labels[i], test_features[i])
+
+count_bnegs = 0
+for i in range(len(predictions)):
+    if test_labels[i] == "I-NEG":
+        count_bnegs += 1
+        print(predictions[i], test_labels[i], test_features[i])
+
+print(count_bnegs)
+
+for test_label in test_labels:
+    if test_label == "I-NEG":
+        print("yes")
 
 print(classification_report(test_labels, predictions))
