@@ -1,9 +1,8 @@
 import pandas as pd
 
-infile_path = "..\data\SEM-2012-SharedTask-CD-SCO-training-simple.v2_SHORT-out.txt"
-outfile_path = "..\data\SEM-2012-SharedTask-CD-SCO-training-simple.v2_SHORT-out-CONLL.conll"
+infile_path = "..\data\SEM-2012-SharedTask-CD-SCO-dev-simple.v2-out.txt"
+outfile_path = infile_path.replace(".txt", "-CONLL.conll")
 dataframe = pd.read_csv(infile_path, encoding="utf-8")
-
 
 def convert_dataframe_to_conll(dataframe, outfile_path, delimiter= '\t'):
     """
