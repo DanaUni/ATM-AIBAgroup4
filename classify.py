@@ -1,6 +1,6 @@
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix, precision_recall_fscore_support
 
 
 trainfile_path = "..\data\SEM-2012-SharedTask-CD-SCO-training-simple.v2_SHORT-out-CONLL.conll"
