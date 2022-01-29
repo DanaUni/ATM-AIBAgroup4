@@ -21,42 +21,40 @@ def get_features(inputfilepath):
             #print(row)
 
             if len(row) > 1:
-                filename = row[0]
+               filename = row[0]
                 sentence_nr = row[1]
                 token_nr = row[2]
                 word = row[3]
                 label = row[4]
-                """
                 pos = row[5]
                 lemma = row[6]
                 pos_category = row[7]
-                sentiment = row[8]
-                is_expression = row[9]
-                normalised_position = row[10]
-                has_prefix = row[11]
-                has_suffix = row[12]
-                is_antonym = row[13]
+                is_expression = row[8]
+                has_prefix = row[9]
+                has_suffix = row[10]
+                is_antonym = row[11]
+                previous_lemma = row[12]
+                next_lemma = row[13]
                 previous_pos = row[14]
                 next_pos = row[15]
-                previous_lemma = row[16]
-                next_lemma = row[17]
-                """
+                norm_position_binned = row[16]
+                sentiment_category = row[17]
 
                 row_features = {
                     "token": word
-                    #,"POS": pos
-                    #,"lemma": lemma
-                    #,"POS_category": pos_category
-                    #,"sentiment": sentiment
-                    #,"isExpression": is_expression
-                    #,"normalised_position": normalised_position
-                    #,"hasPrefix": has_prefix
-                    #,"hasSuffix": has_suffix
-                    #,"isAntonym": is_antonym
-                    #,"previous_POS": previous_pos
-                    #,"next_POS": next_pos
-                    #,"previous_lemma": previous_lemma
-                    #,"next_lemma": next_lemma
+                    , "hasPrefix": has_prefix
+                    , "hasSuffix": has_suffix
+                    , "isAntonym": is_antonym
+                    , "POS": pos
+                    , "lemma": lemma
+                    , "POS_category": pos_category
+                    , "isExpression": is_expression
+                    , "previous_POS": previous_pos
+                    , "next_POS": next_pos
+                    , "previous_lemma": previous_lemma
+                    , "next_lemma": next_lemma
+                    , "normalised_position_binned": norm_position_binned
+                    , "sentiment_category": sentiment_category
                 }
                 #print(row_features)
                 all_rows_features.append(row_features)
