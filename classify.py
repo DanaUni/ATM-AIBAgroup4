@@ -109,4 +109,21 @@ for test_label in test_labels:
     if test_label == "I-NEG":
         print("yes")
 
-print(classification_report(test_labels, predictions))
+print(classification_report(test_labels, predictions, digits=3))
+print("Full confusion matrix (all classes)\n", confusion_matrix(test_labels, predictions), "\n")
+print("Confusion matrix without class O\n", confusion_matrix(test_labels, predictions, labels=["B-NEG", "I-NEG"]))
+tn, fp, fn, tp = confusion_matrix(test_labels, predictions, labels=["B-NEG",  "I-NEG"]).ravel()
+print()
+prfs = precision_recall_fscore_support(test_labels, predictions, labels=["B-NEG",  "I-NEG"])
+prfs_micro_avg = precision_recall_fscore_support(test_labels, predictions, average="micro", labels=["B-NEG",  "I-NEG"])
+
+print("Without class O")
+print("       Precision Recall F-score support")
+print(f"B-NEG: {round(prfs[0][0], 3)}     {round(prfs[1][0], 3)}  {round(prfs[2][0], 3)}   {round(prfs[3][0], 3)}")
+print(f"I-NEG: {round(prfs[0][1], 3)}       {round(prfs[1][1], 3)}  {round(prfs[2][1], 3)}     {round(prfs[3][1], 3)}")
+print()
+
+print("F1-scores")
+print(f"B-NEG:         {round(prfs[2][0], 3)}")
+print(f"I-NEG:         {round(prfs[2][1], 3)}")
+print(f"Micro average: {round(prfs_micro_avg[2], 3)}")
