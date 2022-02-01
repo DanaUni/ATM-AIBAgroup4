@@ -83,6 +83,25 @@ find_I_negs(train_labels)
 model = svm.LinearSVC()
 model.fit(train_vector_features, train_labels)
 
+#### Grid search for MLP
+# parameter_space = {
+#     'hidden_layer_sizes': [(10,10,10), (20,20,20), (10,10), (20,20), (10,10, 10, 10), (20, 20, 20, 20)],
+#     'activation': ['tanh', 'relu', 'logistic'],
+#     'learning_rate_init': [0.01, 0.001, 0.0005]}
+
+
+model = MLPClassifier(hidden_layer_sizes=(20,20, 20))
+model.fit(train_vector_features, train_labels)
+
+#### Enable lines below for gridsearch
+# mlp = MLPClassifier(max_iter=100)
+# clf = GridSearchCV(mlp, parameter_space, n_jobs=-1, cv=3)
+# clf.fit(train_vector_features, train_labels)
+# print('Best parameters found:\n', clf.best_params_)
+
+
+
+
 print("----------------------------------------------------TEST-------------------------------------------------------")
 test_features, test_labels = get_features(testfile_path)
 test_vector_features = vec.transform(test_features)
@@ -91,6 +110,9 @@ print("test features vector shape", test_vector_features.shape)
 find_I_negs(train_labels)
 
 predictions = model.predict(test_vector_features)
+
+#### Enable for grid search
+#predictions = clf.predict(test_vector_features)
 
 print("\nI-NEG predictions [prediction] [gold] [token]")
 for i in range(len(predictions)):
