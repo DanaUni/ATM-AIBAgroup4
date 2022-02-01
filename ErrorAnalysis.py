@@ -14,7 +14,7 @@ def get_antonyms(word):
         print("syn examples:", syn.examples())
         for l in syn.lemmas():
             if l.antonyms():
-                print("", l.antonyms())
+                print("antonyms", l.antonyms())
                 antonyms.append(l.antonyms()[0].name())
     return antonyms
 
