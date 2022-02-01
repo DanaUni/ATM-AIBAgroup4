@@ -39,6 +39,11 @@ def get_features(inputfilepath):
                 next_pos = row[15]
                 norm_position_binned = row[16]
                 sentiment_category = row[17]
+                
+                is_expression = bool(distutils.util.strtobool(row[8]))
+                has_prefix = bool(distutils.util.strtobool(row[9]))
+                has_suffix = bool(distutils.util.strtobool(row[10]))
+                is_antonym = bool(distutils.util.strtobool(row[11]))
 
                 row_features = {
                     "token": word
