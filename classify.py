@@ -135,6 +135,11 @@ print(count_bnegs)
 for test_label in test_labels:
     if test_label == "I-NEG":
         print("yes")
+        
+print("i prediction gold token")
+for i in range(len(test_labels)):
+    if test_labels[i] != predictions[i]:
+        print(i, predictions[i], test_labels[i], test_features[i]["token"])
 
 print(classification_report(test_labels, predictions, digits=3))
 print("Full confusion matrix (all classes)\n", confusion_matrix(test_labels, predictions), "\n")
