@@ -95,8 +95,8 @@ model.fit(train_vector_features, train_labels)
 #     'learning_rate_init': [0.01, 0.001, 0.0005]}
 
 
-model = MLPClassifier(hidden_layer_sizes=(20,20, 20))
-model.fit(train_vector_features, train_labels)
+# model = MLPClassifier(hidden_layer_sizes=(20,20, 20))
+# model.fit(train_vector_features, train_labels)
 
 #### Enable lines below for gridsearch
 # mlp = MLPClassifier(max_iter=100)
