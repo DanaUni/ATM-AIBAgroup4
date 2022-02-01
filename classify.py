@@ -119,6 +119,12 @@ predictions = model.predict(test_vector_features)
 #### Enable for grid search
 #predictions = clf.predict(test_vector_features)
 
+print("\nB-NEG false negatives [prediction] [gold] [token]")
+for i in range(len(test_labels)):
+    if (test_labels[i] == "B-NEG") and (predictions[i] != "B-NEG"):
+        print(predictions[i], test_labels[i], test_features[i]["token"])
+print()
+
 print("\nI-NEG predictions [prediction] [gold] [token]")
 for i in range(len(predictions)):
     if predictions[i] == "I-NEG":
