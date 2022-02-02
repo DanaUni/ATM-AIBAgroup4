@@ -1,6 +1,10 @@
+import pandas as pd
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm
+from sklearn.naive_bayes import GaussianNB, ComplementNB
 from sklearn.metrics import classification_report, confusion_matrix, precision_recall_fscore_support
+from sklearn.neighbors import KNeighborsClassifier, kneighbors_graph
+import distutils.util
 
 
 trainfile_path = "..\data\SEM-2012-SharedTask-CD-SCO-training-simple.v2_SHORT-out-CONLL.conll"
