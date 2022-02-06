@@ -3,13 +3,13 @@ This repository contains all the files used for the Applied Text Mining1: Method
 
 ## Folders:
 
-### AI_BA_Group_4_{NAME}:
+AI_BA_Group_4_{NAME}:
     *Containing the files for the annotation of assignment 1.*
 
-### data:
+data:
     *Containing the original, preprocessed data files used for the classification tasks.*
 
-## Files:
+Files:
 
 ### preprocessing_and_feature_extraction.py:
     *Contains the code used for the preprocessing and feature extraction of assignment 3.*
