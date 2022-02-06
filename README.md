@@ -17,5 +17,5 @@ preprocessing_and_feature_extraction.py:
 dataframe_to_conll.py:
     A script to transform the output file of preprocessing_and_feature_extraction.py to a conll format.
 
-Classify.py:
+classify.py:
     Contains the classification algorithms used for assignment 4
