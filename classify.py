@@ -1,9 +1,8 @@
 import pandas as pd
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm
-from sklearn.naive_bayes import GaussianNB, ComplementNB
 from sklearn.metrics import classification_report, confusion_matrix, precision_recall_fscore_support
-from sklearn.neighbors import KNeighborsClassifier, kneighbors_graph
+from sklearn.neural_network import MLPClassifier
 import distutils.util
 
 
@@ -13,6 +12,9 @@ testfile_path = "..\data\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt"
 vec = DictVectorizer()
 
 def get_features(inputfilepath):
+    """
+    
+    """
     all_rows_features = []
     all_rows_labels = []
 
@@ -22,7 +24,6 @@ def get_features(inputfilepath):
 
         for line in lines:
             row = line.rstrip("\n").split("\t")
-            #print(row)
 
             if len(row) > 1:
                filename = row[0]
@@ -65,7 +66,7 @@ def get_features(inputfilepath):
                     , "normalised_position_binned": norm_position_binned
                     , "sentiment_category": sentiment_category
                 }
-                #print(row_features)
+                
                 all_rows_features.append(row_features)
                 all_rows_labels.append(label)
 
