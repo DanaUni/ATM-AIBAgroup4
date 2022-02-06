@@ -1,6 +1,11 @@
 # ATM-AIBAgroup4
 This repository contains all the files used for the Applied Text Mining1: Methods course.
 
+Folders:
+
+AI_BA_Group_4_{NAME}:
+        Containing the files for the annotation of assignment 1
+
 Files:
 
 preprocessing_and_feature_extraction.py:
